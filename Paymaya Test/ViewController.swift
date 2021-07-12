@@ -6,14 +6,22 @@
 //
 
 import UIKit
+import AppBoxoSDK
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let config = Config(clientId: "430023")
+        config.sandboxMode = true
+        Appboxo.shared.setConfig(config: config)
     }
 
-
+    @IBAction func openMiniapp(_ sender: Any) {
+        let miniapp = Appboxo.shared.getMiniapp(appId: "app34795")
+        miniapp.open(viewController: self)
+    }
+    
 }
 

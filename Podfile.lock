@@ -1,0 +1,16 @@
+PODS:
+  - AppBoxoSDK (1.4.3)
+
+DEPENDENCIES:
+  - AppBoxoSDK (= 1.4.3)
+
+SPEC REPOS:
+  trunk:
+    - AppBoxoSDK
+
+SPEC CHECKSUMS:
+  AppBoxoSDK: 370910a9257e4fba1a3f3d4306af5f56d8f21c3b
+
+PODFILE CHECKSUM: c60a454eb91453c9bf9aef1a5a9c932e469718be
+
+COCOAPODS: 1.10.1
