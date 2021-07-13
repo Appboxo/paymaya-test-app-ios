@@ -12,11 +12,11 @@
 		03A2576A269C466100583B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A25768269C466100583B72 /* Main.storyboard */; };
 		03A2576C269C466200583B72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A2576B269C466200583B72 /* Assets.xcassets */; };
 		03A2576F269C466200583B72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A2576D269C466200583B72 /* LaunchScreen.storyboard */; };
-		8638251DB40101D7D5EA3023 /* Pods_Paymaya_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49499CCF4E2BB810461DE2AD /* Pods_Paymaya_Test.framework */; };
+		7D4F03E89D2F439CBAF1692F /* Pods_PaymayaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9A8168239FE38ED97DA83B /* Pods_PaymayaTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03A2575F269C466100583B72 /* Paymaya Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paymaya Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A2575F269C466100583B72 /* PaymayaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymayaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A25762269C466100583B72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03A25766269C466100583B72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03A25769269C466100583B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,8 +24,10 @@
 		03A2576E269C466200583B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03A25770269C466200583B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C587D9F131BE3BF277D0605 /* Pods-Paymaya Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paymaya Test.release.xcconfig"; path = "Target Support Files/Pods-Paymaya Test/Pods-Paymaya Test.release.xcconfig"; sourceTree = "<group>"; };
-		49499CCF4E2BB810461DE2AD /* Pods_Paymaya_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Paymaya_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F46560DC40BC10FA6F9ADAC /* Pods-PaymayaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymayaTest.release.xcconfig"; path = "Target Support Files/Pods-PaymayaTest/Pods-PaymayaTest.release.xcconfig"; sourceTree = "<group>"; };
+		8D9A8168239FE38ED97DA83B /* Pods_PaymayaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymayaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3BB12D58D617FDC36CB463 /* Pods-Paymaya Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Paymaya Test.debug.xcconfig"; path = "Target Support Files/Pods-Paymaya Test/Pods-Paymaya Test.debug.xcconfig"; sourceTree = "<group>"; };
+		C791BE65774B1CE601729C8F /* Pods-PaymayaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymayaTest.debug.xcconfig"; path = "Target Support Files/Pods-PaymayaTest/Pods-PaymayaTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8638251DB40101D7D5EA3023 /* Pods_Paymaya_Test.framework in Frameworks */,
+				7D4F03E89D2F439CBAF1692F /* Pods_PaymayaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +55,7 @@
 		03A25760269C466100583B72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03A2575F269C466100583B72 /* Paymaya Test.app */,
+				03A2575F269C466100583B72 /* PaymayaTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +78,8 @@
 			children = (
 				BF3BB12D58D617FDC36CB463 /* Pods-Paymaya Test.debug.xcconfig */,
 				1C587D9F131BE3BF277D0605 /* Pods-Paymaya Test.release.xcconfig */,
+				C791BE65774B1CE601729C8F /* Pods-PaymayaTest.debug.xcconfig */,
+				7F46560DC40BC10FA6F9ADAC /* Pods-PaymayaTest.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -83,7 +87,7 @@
 		F9A9F6791CFC743B01D57108 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				49499CCF4E2BB810461DE2AD /* Pods_Paymaya_Test.framework */,
+				8D9A8168239FE38ED97DA83B /* Pods_PaymayaTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		03A2575E269C466100583B72 /* Paymaya Test */ = {
+		03A2575E269C466100583B72 /* PaymayaTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 03A25773269C466200583B72 /* Build configuration list for PBXNativeTarget "Paymaya Test" */;
+			buildConfigurationList = 03A25773269C466200583B72 /* Build configuration list for PBXNativeTarget "PaymayaTest" */;
 			buildPhases = (
 				6EB283C5AD8D09CAD8B4BAF9 /* [CP] Check Pods Manifest.lock */,
 				03A2575B269C466100583B72 /* Sources */,
@@ -105,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = "Paymaya Test";
+			name = PaymayaTest;
 			productName = "Paymaya Test";
-			productReference = 03A2575F269C466100583B72 /* Paymaya Test.app */;
+			productReference = 03A2575F269C466100583B72 /* PaymayaTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 03A2575A269C466100583B72 /* Build configuration list for PBXProject "Paymaya Test" */;
+			buildConfigurationList = 03A2575A269C466100583B72 /* Build configuration list for PBXProject "PaymayaTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				03A2575E269C466100583B72 /* Paymaya Test */,
+				03A2575E269C466100583B72 /* PaymayaTest */,
 			);
 		};
 /* End PBXProject section */
@@ -162,15 +166,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Paymaya Test/Pods-Paymaya Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-PaymayaTest/Pods-PaymayaTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Paymaya Test/Pods-Paymaya Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-PaymayaTest/Pods-PaymayaTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Paymaya Test/Pods-Paymaya Test-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PaymayaTest/Pods-PaymayaTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6EB283C5AD8D09CAD8B4BAF9 /* [CP] Check Pods Manifest.lock */ = {
@@ -188,7 +192,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Paymaya Test-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PaymayaTest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -347,11 +351,12 @@
 		};
 		03A25774269C466200583B72 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF3BB12D58D617FDC36CB463 /* Pods-Paymaya Test.debug.xcconfig */;
+			baseConfigurationReference = C791BE65774B1CE601729C8F /* Pods-PaymayaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = G49R8L8WJD;
 				INFOPLIST_FILE = "Paymaya Test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -359,6 +364,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appboxo.paymaya.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -368,11 +374,12 @@
 		};
 		03A25775269C466200583B72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C587D9F131BE3BF277D0605 /* Pods-Paymaya Test.release.xcconfig */;
+			baseConfigurationReference = 7F46560DC40BC10FA6F9ADAC /* Pods-PaymayaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = G49R8L8WJD;
 				INFOPLIST_FILE = "Paymaya Test/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -380,6 +387,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.appboxo.paymaya.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -390,7 +398,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		03A2575A269C466100583B72 /* Build configuration list for PBXProject "Paymaya Test" */ = {
+		03A2575A269C466100583B72 /* Build configuration list for PBXProject "PaymayaTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03A25771269C466200583B72 /* Debug */,
@@ -399,7 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		03A25773269C466200583B72 /* Build configuration list for PBXNativeTarget "Paymaya Test" */ = {
+		03A25773269C466200583B72 /* Build configuration list for PBXNativeTarget "PaymayaTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				03A25774269C466200583B72 /* Debug */,

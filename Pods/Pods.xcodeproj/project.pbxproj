@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -20,13 +20,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		78F0821EB2F573A924371EF12A3208F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9874A134591C2E8F83B2EBB58CBC7304 /* Pods-Paymaya Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C9E02B11B99B201A333F57B6A76317 /* Pods-Paymaya Test-dummy.m */; };
-		CD85CB602AD4EBFB8C495B3796E4F0D6 /* Pods-Paymaya Test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1473BF4E5522BA6B8D34DF6BBC7BF762 /* Pods-Paymaya Test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1870FF4F62F9C786EF8B363E75FB9BEC /* Pods-PaymayaTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C435210E436D74983F1AEFA4013625 /* Pods-PaymayaTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		786A2AB2035152B5E48FC8FF30D89DF5 /* Pods-PaymayaTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1F050C1E4F0AB078DCBE8CDBC122FDA /* Pods-PaymayaTest-dummy.m */; };
+		7C894322297E8753014697F6A8BA5DEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		960EFC6D68D0FF7F50BC6C4F0E9F6051 /* PBXContainerItemProxy */ = {
+		F47DE08CE39B5B24FC3F2A6F281BF9FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -36,30 +36,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1473BF4E5522BA6B8D34DF6BBC7BF762 /* Pods-Paymaya Test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Paymaya Test-umbrella.h"; sourceTree = "<group>"; };
-		15C9E02B11B99B201A333F57B6A76317 /* Pods-Paymaya Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Paymaya Test-dummy.m"; sourceTree = "<group>"; };
-		171121A5483AF76CBB8CAD971F797A7A /* Pods-Paymaya Test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Paymaya Test-Info.plist"; sourceTree = "<group>"; };
-		39F4A0D9D386BB9A2A1CF4E40F5D3A14 /* Pods-Paymaya Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Paymaya Test-acknowledgements.plist"; sourceTree = "<group>"; };
-		3F033119B3C87469EF66DED2D943B690 /* Pods-Paymaya Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Paymaya Test.debug.xcconfig"; sourceTree = "<group>"; };
+		0F2088027DC9A24638C8689FD4DFC075 /* Pods-PaymayaTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaymayaTest.modulemap"; sourceTree = "<group>"; };
 		4B47744C227F2F37C808B66AD1714882 /* AppBoxoSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = AppBoxoSDK.xcframework; sourceTree = "<group>"; };
+		54C435210E436D74983F1AEFA4013625 /* Pods-PaymayaTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaymayaTest-umbrella.h"; sourceTree = "<group>"; };
 		5648F520CCF297BE109A477A16969D16 /* AppBoxoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppBoxoSDK.debug.xcconfig; sourceTree = "<group>"; };
-		595B63A258847CC4985C8EDA3601B9ED /* Pods-Paymaya Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Paymaya Test.release.xcconfig"; sourceTree = "<group>"; };
+		649D93A6E8E04396E376A07D07E2A674 /* Pods-PaymayaTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaymayaTest-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		91FDBF47DB59C5DFF1F44929261B7E6A /* Pods-Paymaya Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Paymaya Test-frameworks.sh"; sourceTree = "<group>"; };
 		96AB4B4D06F7E9CDC56EB737DD89F0DE /* AppBoxoSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppBoxoSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		9871C9C34D713A2C819EFB52F79A8BB2 /* Pods-PaymayaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaymayaTest.release.xcconfig"; sourceTree = "<group>"; };
+		9A67FDD2103610D7AE145FEE89BCA2EE /* Pods_PaymayaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PaymayaTest.framework; path = "Pods-PaymayaTest.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E64965751E941C69DA64FB7AE5A5AA5 /* Pods-Paymaya Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Paymaya Test-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B9ECD79B65DE897499C666E45913D019 /* Pods_Paymaya_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Paymaya_Test.framework; path = "Pods-Paymaya Test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1CE9BE02C52A2CDBAD42FB1AAB0941B /* Pods-PaymayaTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaymayaTest-frameworks.sh"; sourceTree = "<group>"; };
+		A1F050C1E4F0AB078DCBE8CDBC122FDA /* Pods-PaymayaTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaymayaTest-dummy.m"; sourceTree = "<group>"; };
+		A55638D5DC3F83C5E265E7973FA8DA0C /* Pods-PaymayaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaymayaTest.debug.xcconfig"; sourceTree = "<group>"; };
+		BBFC33E8FCB35FFCE53E90805F97B884 /* Pods-PaymayaTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaymayaTest-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E9A02A6991B219328428619FDA5178FC /* AppBoxoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppBoxoSDK.release.xcconfig; sourceTree = "<group>"; };
-		EA915C4659864FB24735F8E170A66FE6 /* Pods-Paymaya Test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Paymaya Test.modulemap"; sourceTree = "<group>"; };
+		F4DDC2B34E99473589EC1B5D272A4B0D /* Pods-PaymayaTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaymayaTest-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5E36E6C843501238321C548FE9C86B8E /* Frameworks */ = {
+		2C05F45FCE2A93ED6EF6AA0B3C602C6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78F0821EB2F573A924371EF12A3208F8 /* Foundation.framework in Frameworks */,
+				7C894322297E8753014697F6A8BA5DEF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,29 +85,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2BED8B68AD496107F3A712D21BDF32BD /* Targets Support Files */ = {
+		4A7DB2350C6A9F9AF9B1C0AA56AFCD2E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				412594DF546381828678206A0ABC65DC /* Pods-Paymaya Test */,
+				541D7EC48DB52E3524086A3BAF71E41C /* Pods-PaymayaTest */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		412594DF546381828678206A0ABC65DC /* Pods-Paymaya Test */ = {
+		541D7EC48DB52E3524086A3BAF71E41C /* Pods-PaymayaTest */ = {
 			isa = PBXGroup;
 			children = (
-				EA915C4659864FB24735F8E170A66FE6 /* Pods-Paymaya Test.modulemap */,
-				9E64965751E941C69DA64FB7AE5A5AA5 /* Pods-Paymaya Test-acknowledgements.markdown */,
-				39F4A0D9D386BB9A2A1CF4E40F5D3A14 /* Pods-Paymaya Test-acknowledgements.plist */,
-				15C9E02B11B99B201A333F57B6A76317 /* Pods-Paymaya Test-dummy.m */,
-				91FDBF47DB59C5DFF1F44929261B7E6A /* Pods-Paymaya Test-frameworks.sh */,
-				171121A5483AF76CBB8CAD971F797A7A /* Pods-Paymaya Test-Info.plist */,
-				1473BF4E5522BA6B8D34DF6BBC7BF762 /* Pods-Paymaya Test-umbrella.h */,
-				3F033119B3C87469EF66DED2D943B690 /* Pods-Paymaya Test.debug.xcconfig */,
-				595B63A258847CC4985C8EDA3601B9ED /* Pods-Paymaya Test.release.xcconfig */,
+				0F2088027DC9A24638C8689FD4DFC075 /* Pods-PaymayaTest.modulemap */,
+				BBFC33E8FCB35FFCE53E90805F97B884 /* Pods-PaymayaTest-acknowledgements.markdown */,
+				F4DDC2B34E99473589EC1B5D272A4B0D /* Pods-PaymayaTest-acknowledgements.plist */,
+				A1F050C1E4F0AB078DCBE8CDBC122FDA /* Pods-PaymayaTest-dummy.m */,
+				A1CE9BE02C52A2CDBAD42FB1AAB0941B /* Pods-PaymayaTest-frameworks.sh */,
+				649D93A6E8E04396E376A07D07E2A674 /* Pods-PaymayaTest-Info.plist */,
+				54C435210E436D74983F1AEFA4013625 /* Pods-PaymayaTest-umbrella.h */,
+				A55638D5DC3F83C5E265E7973FA8DA0C /* Pods-PaymayaTest.debug.xcconfig */,
+				9871C9C34D713A2C819EFB52F79A8BB2 /* Pods-PaymayaTest.release.xcconfig */,
 			);
-			name = "Pods-Paymaya Test";
-			path = "Target Support Files/Pods-Paymaya Test";
+			name = "Pods-PaymayaTest";
+			path = "Target Support Files/Pods-PaymayaTest";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -126,14 +126,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BDB23216F0A19B6C211C30F8F44465E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A67FDD2103610D7AE145FEE89BCA2EE /* Pods_PaymayaTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				6240164415ACA90DDE52BD19B261B0CE /* Pods */,
-				E2A660BA8A9A016584347B917329F35A /* Products */,
-				2BED8B68AD496107F3A712D21BDF32BD /* Targets Support Files */,
+				BDB23216F0A19B6C211C30F8F44465E8 /* Products */,
+				4A7DB2350C6A9F9AF9B1C0AA56AFCD2E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,45 +163,37 @@
 			path = AppBoxoSDK;
 			sourceTree = "<group>";
 		};
-		E2A660BA8A9A016584347B917329F35A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B9ECD79B65DE897499C666E45913D019 /* Pods_Paymaya_Test.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		804AAB5D169DEFD22DAC897CE88BB8AB /* Headers */ = {
+		8FEB853E2E322F901656F73BD8DB6305 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD85CB602AD4EBFB8C495B3796E4F0D6 /* Pods-Paymaya Test-umbrella.h in Headers */,
+				1870FF4F62F9C786EF8B363E75FB9BEC /* Pods-PaymayaTest-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6451E2E65081057CBC6DA89254BE8874 /* Pods-Paymaya Test */ = {
+		53D65625B531EDEC27F6C956E3567A41 /* Pods-PaymayaTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 434BBC9C61CC2B87C01C69FD7F9B176B /* Build configuration list for PBXNativeTarget "Pods-Paymaya Test" */;
+			buildConfigurationList = 429C35658D314E1EAAC2B39512E59A68 /* Build configuration list for PBXNativeTarget "Pods-PaymayaTest" */;
 			buildPhases = (
-				804AAB5D169DEFD22DAC897CE88BB8AB /* Headers */,
-				CA29642DA683FC30B1F6EB094272FBC0 /* Sources */,
-				5E36E6C843501238321C548FE9C86B8E /* Frameworks */,
-				332CFDEA64E77C37C6E363436F1EAB41 /* Resources */,
+				8FEB853E2E322F901656F73BD8DB6305 /* Headers */,
+				245391D045137624E8E078BD40415FA7 /* Sources */,
+				2C05F45FCE2A93ED6EF6AA0B3C602C6B /* Frameworks */,
+				EFE85B7856AEB191821EA5FE74A53C10 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8292DF33AFAD6D16F81DF31865F541D1 /* PBXTargetDependency */,
+				C86C2195C94832B4116C08F77E4040E8 /* PBXTargetDependency */,
 			);
-			name = "Pods-Paymaya Test";
-			productName = "Pods-Paymaya Test";
-			productReference = B9ECD79B65DE897499C666E45913D019 /* Pods_Paymaya_Test.framework */;
+			name = "Pods-PaymayaTest";
+			productName = "Pods-PaymayaTest";
+			productReference = 9A67FDD2103610D7AE145FEE89BCA2EE /* Pods_PaymayaTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -214,18 +214,18 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E2A660BA8A9A016584347B917329F35A /* Products */;
+			productRefGroup = BDB23216F0A19B6C211C30F8F44465E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				840B846490E852A16786E6E9A9341DD3 /* AppBoxoSDK */,
-				6451E2E65081057CBC6DA89254BE8874 /* Pods-Paymaya Test */,
+				53D65625B531EDEC27F6C956E3567A41 /* Pods-PaymayaTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		332CFDEA64E77C37C6E363436F1EAB41 /* Resources */ = {
+		EFE85B7856AEB191821EA5FE74A53C10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,29 +255,29 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CA29642DA683FC30B1F6EB094272FBC0 /* Sources */ = {
+		245391D045137624E8E078BD40415FA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9874A134591C2E8F83B2EBB58CBC7304 /* Pods-Paymaya Test-dummy.m in Sources */,
+				786A2AB2035152B5E48FC8FF30D89DF5 /* Pods-PaymayaTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8292DF33AFAD6D16F81DF31865F541D1 /* PBXTargetDependency */ = {
+		C86C2195C94832B4116C08F77E4040E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AppBoxoSDK;
 			target = 840B846490E852A16786E6E9A9341DD3 /* AppBoxoSDK */;
-			targetProxy = 960EFC6D68D0FF7F50BC6C4F0E9F6051 /* PBXContainerItemProxy */;
+			targetProxy = F47DE08CE39B5B24FC3F2A6F281BF9FA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		362060C692F2E065549A5F3B70872753 /* Debug */ = {
+		569564EEC27738554EF19425E4475A4C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F033119B3C87469EF66DED2D943B690 /* Pods-Paymaya Test.debug.xcconfig */;
+			baseConfigurationReference = A55638D5DC3F83C5E265E7973FA8DA0C /* Pods-PaymayaTest.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -289,7 +289,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Paymaya Test/Pods-Paymaya Test-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaymayaTest/Pods-PaymayaTest-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -298,7 +298,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Paymaya Test/Pods-Paymaya Test.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-PaymayaTest/Pods-PaymayaTest.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -311,44 +311,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		5778BDE255F051C63F0EC65CAEEFA0D9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 595B63A258847CC4985C8EDA3601B9ED /* Pods-Paymaya Test.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Paymaya Test/Pods-Paymaya Test-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Paymaya Test/Pods-Paymaya Test.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		658BC4FC65F16B2A1663F63FE36654BD /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -426,6 +388,44 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9C0FCB37AB3B646DCB4722F672941F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9871C9C34D713A2C819EFB52F79A8BB2 /* Pods-PaymayaTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PaymayaTest/Pods-PaymayaTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaymayaTest/Pods-PaymayaTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -514,11 +514,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		434BBC9C61CC2B87C01C69FD7F9B176B /* Build configuration list for PBXNativeTarget "Pods-Paymaya Test" */ = {
+		429C35658D314E1EAAC2B39512E59A68 /* Build configuration list for PBXNativeTarget "Pods-PaymayaTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				362060C692F2E065549A5F3B70872753 /* Debug */,
-				5778BDE255F051C63F0EC65CAEEFA0D9 /* Release */,
+				569564EEC27738554EF19425E4475A4C /* Debug */,
+				9C0FCB37AB3B646DCB4722F672941F33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
