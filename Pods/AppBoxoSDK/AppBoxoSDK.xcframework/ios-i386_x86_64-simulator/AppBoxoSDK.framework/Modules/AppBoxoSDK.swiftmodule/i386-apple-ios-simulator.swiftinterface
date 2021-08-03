@@ -71,6 +71,7 @@ import WebKit
   @objc public var secondaryColor: Swift.String?
   @objc public var tertiaryColor: Swift.String?
   @objc(initWithPrimary:secondary:tertiary:) required public init(primary: Swift.String, secondary: Swift.String, tertiary: Swift.String)
+  @objc override dynamic public func isEqual(_ object: Any?) -> Swift.Bool
   @objc deinit
   @objc override dynamic public init()
   required public init(from decoder: Swift.Decoder) throws

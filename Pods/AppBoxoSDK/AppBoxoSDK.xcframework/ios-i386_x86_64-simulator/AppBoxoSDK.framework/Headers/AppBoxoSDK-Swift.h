@@ -285,6 +285,7 @@ SWIFT_CLASS_NAMED("MiniappColor")
 @property (nonatomic, copy) NSString * _Nullable secondaryColor;
 @property (nonatomic, copy) NSString * _Nullable tertiaryColor;
 - (nonnull instancetype)initWithPrimary:(NSString * _Nonnull)primary secondary:(NSString * _Nonnull)secondary tertiary:(NSString * _Nonnull)tertiary OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -674,6 +675,7 @@ SWIFT_CLASS_NAMED("MiniappColor")
 @property (nonatomic, copy) NSString * _Nullable secondaryColor;
 @property (nonatomic, copy) NSString * _Nullable tertiaryColor;
 - (nonnull instancetype)initWithPrimary:(NSString * _Nonnull)primary secondary:(NSString * _Nonnull)secondary tertiary:(NSString * _Nonnull)tertiary OBJC_DESIGNATED_INITIALIZER;
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
