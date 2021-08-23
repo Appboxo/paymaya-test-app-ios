@@ -28,7 +28,7 @@ class ViewController: UIViewController {
 
 extension ViewController : MiniappDelegate {
     func onAuth(miniapp: Miniapp) {
-        miniapp.setAuthCode(authCode: "2e3ccbd2-7328-482b-a8f2-1f9860612d00")
+        miniapp.setAuthCode(authCode: "x+aipn0ODYv4+PZnqiogWVR1rGA4YQFlwmFTT6GV2Rza9LelWQjFUXy5k1SMgmZolDGd5+zh0IJc3vokMBldC74qkKUUoPI1z4K381kbBOW0az+xfs/UCZFkQZbSq5iEn7fofVHxCaSh66JZjZrjzuc9dSkW3IaUBjW/krZpV2Qr58emYQrUqBHb2N7YM01msXJPaasLbEaS3I3FCZ3cfcoSTZxzWQwQ3Chv2jpcaDEJ/7nHekInkwjgAa5x03Eu9bhlzv3uqbQd7xMOFEIRCGOubYkXn2udueeQuzG+tYv+CuShiI6KRbpXwtWmQidgsO1LhAP4KK6IZg4j3OHoZg==")
     }
 }
 
