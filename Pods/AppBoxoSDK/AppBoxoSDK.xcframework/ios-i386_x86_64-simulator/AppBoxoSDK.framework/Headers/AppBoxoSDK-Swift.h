@@ -237,6 +237,7 @@ enum Theme : NSInteger;
 SWIFT_CLASS_NAMED("Config")
 @interface Config : NSObject
 @property (nonatomic) BOOL sandboxMode;
+@property (nonatomic) BOOL permissionsPage;
 - (nonnull instancetype)initWithClientId:(NSString * _Nonnull)clientId;
 - (nonnull instancetype)initWithClientId:(NSString * _Nonnull)clientId theme:(enum Theme)theme OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
@@ -627,6 +628,7 @@ enum Theme : NSInteger;
 SWIFT_CLASS_NAMED("Config")
 @interface Config : NSObject
 @property (nonatomic) BOOL sandboxMode;
+@property (nonatomic) BOOL permissionsPage;
 - (nonnull instancetype)initWithClientId:(NSString * _Nonnull)clientId;
 - (nonnull instancetype)initWithClientId:(NSString * _Nonnull)clientId theme:(enum Theme)theme OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         
         let config = Config(clientId: "911311")
         config.sandboxMode = true
+        config.permissionsPage = false
         Appboxo.shared.setConfig(config: config)
     }
 

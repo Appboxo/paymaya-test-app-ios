@@ -36,6 +36,7 @@ import WebKit
 }
 @objc(Config) public class Config : ObjectiveC.NSObject {
   @objc public var sandboxMode: Swift.Bool
+  @objc public var permissionsPage: Swift.Bool
   @objc(initWithClientId:) convenience public init(clientId: Swift.String)
   @objc(initWithClientId:theme:) required public init(clientId: Swift.String, theme: AppBoxoSDK.Theme)
   @objc override dynamic public init()
