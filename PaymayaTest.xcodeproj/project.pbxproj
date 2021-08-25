@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		033180A126D621A300051812 /* ConfirmPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033180A026D621A300051812 /* ConfirmPaymentViewController.swift */; };
+		033180BB26D622B900051812 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033180BA26D622B900051812 /* Extensions.swift */; };
 		03A25763269C466100583B72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A25762269C466100583B72 /* AppDelegate.swift */; };
 		03A25767269C466100583B72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A25766269C466100583B72 /* ViewController.swift */; };
 		03A2576A269C466100583B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A25768269C466100583B72 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		033180A026D621A300051812 /* ConfirmPaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPaymentViewController.swift; sourceTree = "<group>"; };
+		033180BA26D622B900051812 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		03A2575F269C466100583B72 /* PaymayaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymayaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A25762269C466100583B72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03A25766269C466100583B72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				03A2576B269C466200583B72 /* Assets.xcassets */,
 				03A2576D269C466200583B72 /* LaunchScreen.storyboard */,
 				03A25770269C466200583B72 /* Info.plist */,
+				033180A026D621A300051812 /* ConfirmPaymentViewController.swift */,
+				033180BA26D622B900051812 /* Extensions.swift */,
 			);
 			path = "Paymaya Test";
 			sourceTree = "<group>";
@@ -206,8 +212,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033180A126D621A300051812 /* ConfirmPaymentViewController.swift in Sources */,
 				03A25767269C466100583B72 /* ViewController.swift in Sources */,
 				03A25763269C466100583B72 /* AppDelegate.swift in Sources */,
+				033180BB26D622B900051812 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
