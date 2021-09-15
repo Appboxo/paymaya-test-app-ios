@@ -29,7 +29,23 @@ class ViewController: UIViewController {
 
 extension ViewController : MiniappDelegate {
     func onAuth(miniapp: Miniapp) {
-        miniapp.setAuthCode(authCode: "x+aipn0ODYv4+PZnqiogWVR1rGA4YQFlwmFTT6GV2Rza9LelWQjFUXy5k1SMgmZolDGd5+zh0IJc3vokMBldC74qkKUUoPI1z4K381kbBOW0az+xfs/UCZFkQZbSq5iEn7fofVHxCaSh66JZjZrjzuc9dSkW3IaUBjW/krZpV2Qr58emYQrUqBHb2N7YM01msXJPaasLbEaS3I3FCZ3cfcoSTZxzWQwQ3Chv2jpcaDEJ/7nHekInkwjgAa5x03Eu9bhlzv3uqbQd7xMOFEIRCGOubYkXn2udueeQuzG+tYv+CuShiI6KRbpXwtWmQidgsO1LhAP4KK6IZg4j3OHoZg==")
+        let request = URLRequest(url: URL(string: "https://9w1kyzp49e.execute-api.ap-southeast-1.amazonaws.com/Test/encryptedUserIdentifier")!)
+        
+        let task =  URLSession.shared.dataTask(with: request, completionHandler: { data, response, error in
+            
+            if let data = data, let json = try? JSONSerialization.jsonObject(with: data, options: []), let dict = json as? [String: Any], let body = dict["body"] as? String {
+                DispatchQueue.main.sync {
+                    miniapp.setAuthCode(authCode: body)
+                }
+                
+            } else {
+                DispatchQueue.main.sync {
+                    miniapp.setAuthCode(authCode: "")
+                }
+            }
+        })
+        
+        task.resume()
     }
     
     func didReceivePaymentEvent(miniapp: Miniapp, paymentData: PaymentData) {

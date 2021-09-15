@@ -5,6 +5,6 @@ target 'PaymayaTest' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'AppBoxoSDK', '1.4.6'
+  pod 'AppBoxoSDK', '1.4.7'
 
 end
